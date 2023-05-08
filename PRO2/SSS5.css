@@ -192,5 +192,6 @@ section{
     }
     .road img{
         margin-left: 0px;
+        height: 400px;
     }
 }
