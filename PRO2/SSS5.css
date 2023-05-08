@@ -190,4 +190,7 @@ section{
         width: 100%;
         z-index: 4;
     }
+    .road img{
+        margin-left: 0px;
+    }
 }
