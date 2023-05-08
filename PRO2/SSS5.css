@@ -102,6 +102,50 @@ section{
     box-shadow: inset 200px 0 0 0 black;
     transition: 1.5s all;
 }
+/*  路線 */
+.road p{
+    text-indent: 60px;
+    font-weight: bolder;
+}
+
+.road h2{
+    text-indent: 60px;
+    color: rgb(0, 233, 233);
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+.road img{
+        width: 100%;
+        max-width: 1000px;
+        height: 600px;
+       margin-left: 70px;
+         /* position: absolute;
+        top: 50%;
+        left: 50%; */
+        /* transform: translate(-50%,-50%); */ 
+}
+/* <!-- FOOT --> */
+.footer{
+    background-color:burlywood;
+    text-align: center;
+}
+.footer .socials{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+.footer .credit{
+    padding: 10px;
+    color: rgb(67,67,67);
+    font-weight: bolder;
+    font-size: 30px;
+}
+.footer .credit span{
+    color: rgb(0, 169, 169);
+}
 
 /* 手機 */
 /* 第一區h */
@@ -146,3 +190,4 @@ section{
         width: 100%;
         z-index: 4;
     }
+}
