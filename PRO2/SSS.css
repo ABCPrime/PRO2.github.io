@@ -48,8 +48,8 @@ header .navbar a:hover{
 #menu-bar{
     font-size: 25px;
     cursor: pointer;
-    color: coral;
-    border:1px solid blueviolet;
+    color: rgb(0, 0, 0);
+    border:1px solid rgb(115, 13, 210);
     border-radius: 5px;
     padding:8px;
      display:none; 
