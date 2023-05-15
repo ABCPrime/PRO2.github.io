@@ -10,7 +10,7 @@
 body{
     background-color:pink;
 }
-/* <!-- 第一H --> */
+/* <!-- 標題 --> */
 h1{
     color: rgb(115, 45, 220);
     font-size: 40px; 
@@ -59,7 +59,7 @@ header .navbar a:hover{
     padding:19px 14px 19px 14px;
 }
 
-/* Font Awesome */
+/* Font Awesome 案紐*/
 #menu-bar{
     font-size: 25px;
     cursor: pointer;
@@ -70,7 +70,7 @@ header .navbar a:hover{
      display:none; 
 }
 
-/* <!-- 首頁 --> */
+/* <!-- 首頁圖 --> */
 
 section{
     padding:10px;
@@ -103,7 +103,7 @@ section{
     transition: 1.5s all;
 } 
 
-/* 菜單 */
+/* 美食 */
 
 .menu .box-container{
     display: flex;
@@ -225,7 +225,7 @@ section{
         z-index: 4;
     }
 
-    /* 第四區 */
+    /* 美食 */
     .menu .box-container .box{
         flex: 1 1 auto;
     }

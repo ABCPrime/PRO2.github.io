@@ -10,7 +10,7 @@
 body{
     background-color: rgb(92, 214, 255);
 }
-/* <!-- 第一H --> */
+/* <!-- 標題 --> */
 h1{
     color: rgb(115, 45, 220);
     font-size: 40px;
@@ -47,7 +47,7 @@ header .navbar a:hover{
     padding:19px 14px 19px 14px;
 }
 
-/* Font Awesome */
+/* Font Awesome 按鈕*/
 #menu-bar{
     font-size: 25px;
     cursor: pointer;
@@ -58,7 +58,7 @@ header .navbar a:hover{
      display:none; 
 }
 
-/* <!-- 首頁 --> */
+/* <!-- 首頁圖 --> */
 
 section{
     padding:10px;
@@ -91,7 +91,7 @@ section{
     transition: 1.5s all;
 } 
 
-/* <!-- 料理 --> */
+/* <!-- 景點 --> */
 
 .heading{
     text-align: center;
@@ -215,7 +215,7 @@ section{
         clip-path: polygon(0 0,100% 0,100% 100%,0 100%);
         padding:10px;
     } 
-    /* 第二區 */
+    /* 首頁圖 */
     .home .content{
         text-align: center;
         margin-top: 70px;
@@ -225,7 +225,7 @@ section{
         width: 100%;
         z-index: 4;
     }
-    /* 第三 */
+    /* 景點*/
     .category .box-container .box{
         flex: 1 1 auto;
     }

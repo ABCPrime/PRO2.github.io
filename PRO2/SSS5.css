@@ -67,7 +67,7 @@ header .navbar a:hover{
     border:1px solid rgb(115, 13, 210);
     border-radius: 5px;
     padding:8px;
-     display:none; 
+    display:none; 
 }
 
 /* <!-- 首頁 --> */
@@ -103,14 +103,58 @@ section{
     transition: 1.5s all;
 }
 /*  路線 */
+.box{
+    display: flex;
+    border: 3px solid rgb(47, 179, 142);
+    border-radius: 20px;
+    margin-left: 10px; 
+}
+.box2{
+    display: flex;
+    border: 3px solid rgb(233, 0, 190);
+    border-radius: 20px;
+    margin-left: 10px; 
+}
+.box3{
+    display: flex;
+    border: 3px solid rgb(0, 186, 233);
+    border-radius: 20px;
+    margin-left: 10px; 
+}
+.box4{
+    display: flex;
+    border: 3px solid rgb(43, 0, 233);
+    border-radius: 20px;
+    margin-left: 10px; 
+}
+
 .road p{
-    text-indent: 60px;
+    text-indent: 25px;
     font-weight: bolder;
+    text-align:center;
 }
 
 .road h2{
     text-indent: 60px;
     color: rgb(0, 233, 233);
+    font-size: 40px;
+    font-weight: bolder;
+}
+.road h3{
+    text-indent: 60px;
+    color: rgb(233, 0, 190);
+    font-size: 40px;
+    font-weight: bolder;
+}
+.road h4{
+    text-indent: 60px;
+    color: rgb(0, 233, 151);
+    font-size: 40px;
+    font-weight: bolder;
+}
+.road h5{
+    text-indent: 60px;
+    color: rgb(43, 0, 233);
     font-size: 40px;
     font-weight: bolder;
 }
@@ -120,10 +164,6 @@ section{
         max-width: 1000px;
         height: 600px;
        margin-left: 70px;
-         /* position: absolute;
-        top: 50%;
-        left: 50%; */
-        /* transform: translate(-50%,-50%); */ 
 }
 /* <!-- FOOT --> */
 .footer{
@@ -167,7 +207,7 @@ section{
 
      header .navbar a{ 
         /* 疊起來 */
-          display: block;
+        display: block;
          font-size: 22px;
          font-weight: normal;
          color: rgb(0, 0, 0);
